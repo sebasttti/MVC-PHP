@@ -1,0 +1,78 @@
+*{
+  font-family: 'Roboto',sans-serif;
+}
+
+.acciones{
+  display: flex;
+  justify-content: space-around;
+}
+
+.encabezado{
+  margin:10px 0 10px 0;
+  padding:10px;
+  background-color:rgba(0, 0, 0, 0.66);
+  color:white;
+  width: 100% !important;
+  display:flex;
+  justify-content: space-around;
+}
+
+th{
+  text-align: center;
+}
+
+td{
+  text-align: center;
+}
+
+a{
+  transition: transform .3s;
+}
+
+a:active{
+  transform: scale(.9);
+}
+
+.hidden{
+  display:none;
+}
+
+.compcenter{
+  display: flex;
+  justify-content: center;
+}
+
+.resp{
+  flex-direction: row;
+  justify-content: center;
+  margin-top:20px;
+}
+.icon-success{
+  animation-name: crecer;
+  animation-duration:1s;
+}
+.icon-success:before{
+  content: "\f164";
+  font-family: "FontAwesome";
+  font-size: 2em;
+  margin-left:20px;
+}
+
+@keyframes crecer {
+    0%{
+        transform: rotate(-45deg) scale(0);
+
+    }
+    25%{
+      transform: rotate(45deg) scale(1.25);
+    }
+    50%{
+      transform: rotate(-20deg) scale(1.5);
+    }
+    75%{
+      transform: rotate(10deg) scale(1.75);
+    }
+    100%{
+      transform: rotate(-5deg) scale(2);
+    }
+}
