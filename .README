@@ -1,0 +1,17 @@
+# MVC-PHP
+
+Este repositorio contiene un modelo básico de MVC con PHP y Apache.
+
+## Construido con 🛠️
+
+* [Apache](https://httpd.apache.org/) - Servidor utilizado
+* [PHP](https://www.php.net/) - Lenguaje de Programación
+
+## Licencia 📄
+
+El presente modelo no tiene ningún tipo de restricción. Puede ser descargado y modificado a voluntad de la persona.
+
+## Gratitud 🎁
+
+Agradezco a [Render2Web](https://www.youtube.com/user/Render2Web) por la explicación inicial para poder realizar este modelo.
+El video 📹 utlizado para el desarrollo de este proyecto es [ver video](https://www.youtube.com/watch?v=dRLRPi6ClMA&list=PLty0cFLf07jXQA5_P9rDMWjpEet2wTXN1&ab_channel=render2web)
