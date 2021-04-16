@@ -3,7 +3,7 @@
     RewriteEngine On
 
     #reescribe lo que este despues del dominio o del localhost
-    RewriteBase /crudmvc2/public
+    RewriteBase /MVC-PHP/public
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
 
