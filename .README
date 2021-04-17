@@ -6,6 +6,7 @@ Este repositorio contiene un modelo básico de MVC con PHP y Apache.
 
 * [Apache](https://httpd.apache.org/) - Servidor utilizado
 * [PHP](https://www.php.net/) - Lenguaje de Programación
+* [MariaDB](https://mariadb.org/) - Gestor de Base de Datos Relacional
 
 ## Licencia 📄
 
